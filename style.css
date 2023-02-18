@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+body{  
+    margin: 0;
+    background-color: #23252C;
+}
+
+.container {
+    max-width: 400px;
+    min-width: 400px; 
+    margin: 44px 116px 44px 117px;   
+    justify-content: center;
+    text-align: center;
+    background-color: #1A1B21; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.about-container, .interests-container {
+    text-align: left;
+    padding-right: 36px;
+    padding-left: 34px;    
+}
+.about-container > p, .interests-container > p {
+    text-align: left;
+        
+}
+
+.photo-profile {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+   color: #FFFF;     
+   font-family: Inter;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30.26px;
+}
+h5{
+    color: #F3BF99; 
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15.49px;   
+    
+}
+
+h3{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    color: #DCDCDC;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15.36px;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    height: 34px;
+    width: 115px;
+    left: 151px;
+    top: 468px;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+    cursor: pointer;
+    
+}
+
+div > button  {
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+.email-btn{
+    color: #374151;    
+    background-color: #FFFF;
+}
+
+.linkedin-btn{
+    color: #FFFF;
+    background-color: #5093E2;    
+}
+
+.footer-container{
+    background-color: #161619;
+    font-size: 25px;
+    color: #918E9B; 
+    padding-top: 19px;
+    padding-bottom: 20px;
+    padding-left: 73px;
+    padding-right: 72.5px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.footer-container > i{
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    cursor: pointer;
+}
